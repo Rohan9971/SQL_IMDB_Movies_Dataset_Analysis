@@ -1,0 +1,7 @@
+TABLE_NAME,SUM(TABLE_ROWS)
+director_mapping,3867
+genre,14662
+movie,7511
+names,27090
+ratings,8230
+role_mapping,16024
