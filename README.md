@@ -67,7 +67,7 @@ If you don't wish to perform the data loading part, you can directly download th
 **director_mapping**
 
 
-![director_mapping](https://user-images.githubusercontent.com/112953571/206144148-5e115f40-601e-40db-9347-1f6198b8c5b3.png
+![director_mapping](https://user-images.githubusercontent.com/112953571/206144891-dfaa9903-f5f7-4d44-9845-570ba60e836e.png)
 
 
 
