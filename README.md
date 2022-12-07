@@ -43,35 +43,51 @@ If you don't wish to perform the data loading part, you can directly download th
 
 **Entity Relationship Diagram (ERD)**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ERdiagram.png?raw=true)
+![ERdiagram](https://user-images.githubusercontent.com/112953571/206124002-580b22fa-fd77-4b97-b406-ab9b8f146bd5.png)
+
 
 **Table (Schema)**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/table.png?raw=true)
+
+![table](https://user-images.githubusercontent.com/112953571/206124083-e88e8b12-6f2c-4795-bfa9-06e7a1927a60.png)
+
 
 **Movies Table**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/movies.png?raw=true)
+
+![movies](https://user-images.githubusercontent.com/112953571/206124486-35373841-2f28-4f8a-be80-6d4fd6a169dd.png)
+
+
 
 **genre**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/genre.png?raw=true)
+![genre](https://user-images.githubusercontent.com/112953571/206143741-0e343e70-e111-4c8f-be32-09e525984557.png)
+
 
 **director_mapping**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/director_mapping.png?raw=true)
+
+![director_mapping](https://user-images.githubusercontent.com/112953571/206144148-5e115f40-601e-40db-9347-1f6198b8c5b3.png
+
+
 
 **role_mapping**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/role_maping.png?raw=true)
+![role_maping](https://user-images.githubusercontent.com/112953571/206144320-0f42261b-7d54-47ea-90bd-f0c6ed9951d1.png)
+
+
 
 **names**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/names.png?raw=true)
+![names](https://user-images.githubusercontent.com/112953571/206144422-32d2f7d1-d13c-4cbd-9540-ac0ba1f716f7.png)
+
 
 **ratings**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ratings.png?raw=true)
+
+![ratings](https://user-images.githubusercontent.com/112953571/206144536-b0784ff4-173c-472c-b0fa-081e55aa1b9f.png)
+
+
 
 
 ## Queries Performed On The Dataset
