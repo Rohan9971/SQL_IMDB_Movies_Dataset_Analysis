@@ -107,7 +107,7 @@ GROUP BY TABLE_NAME;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans1.png?raw=true)
+![ans1](https://user-images.githubusercontent.com/112953571/206150808-d64e894a-5017-4818-a113-4707dd72a972.png)
 
 
 Q2. WHICH COLUMNS IN THE MOVIE TABLE HAVE NULL VALUES?
