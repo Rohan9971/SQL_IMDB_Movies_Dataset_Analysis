@@ -130,7 +130,8 @@ SELECT
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans2.png?raw=true)
+![ans2](https://user-images.githubusercontent.com/112953571/206368293-048ccb9b-e497-4e2d-946a-62f00090d13e.png)
+
 
 
 Q3. FIND THE TOTAL NUMBER OF MOVIES RELEASED EACH YEAR? HOW DOES THE TREND LOOK MONTH WISE?
@@ -156,9 +157,12 @@ ORDER  BY month_num;
 
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans3.1.png?raw=true)
+![ans3 1](https://user-images.githubusercontent.com/112953571/206368356-76d2a362-978a-4e60-be50-237ac6b4985d.png)
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans3.2.png?raw=true)
+
+![ans3 2](https://user-images.githubusercontent.com/112953571/206368361-d4ead4c2-bc87-4ff0-9aaa-54c4b514eb4c.png)
+
+
 
 Q4. HOW MANY MOVIES WERE PRODUCED IN THE USA OR INDIA IN THE YEAR 2019?
 
@@ -174,7 +178,10 @@ WHERE  ( upper(country) LIKE '%INDIA%'
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans4.png?raw=true)
+
+![ans4](https://user-images.githubusercontent.com/112953571/206368427-be6e4bd3-0cd5-4fbc-9280-e197c5526726.png)
+
+
 
 
 Q5. FIND THE UNIQUE LIST OF THE GENRES PRESENT IN THE DATA SET?
@@ -187,7 +194,10 @@ SELECT DISTINCT genre FROM   genre;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans5.png?raw=true)
+
+![ans5](https://user-images.githubusercontent.com/112953571/206368501-72c41d0a-0280-45d0-b4d4-6bfa6e7bf353.png)
+
+
 
 
 Q6.WHICH GENRE HAD THE HIGHEST NUMBER OF MOVIES PRODUCED OVERALL?
@@ -206,7 +216,9 @@ ORDER BY   number_of_movies DESC limit 1 ;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans6.png?raw=true)
+![ans6](https://user-images.githubusercontent.com/112953571/206368543-575b51e4-9a29-4dd8-b698-10cb74e52e16.png)
+
+
 
 Q7. HOW MANY MOVIES BELONG TO ONLY ONE GENRE?
 
@@ -226,7 +238,8 @@ GROUP BY genre_count;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans7.png?raw=true)
+![ans7](https://user-images.githubusercontent.com/112953571/206368576-4c44c088-6208-4f73-a409-147215d6666e.png)
+
 
 
 Q8.WHAT IS THE AVERAGE DURATION OF MOVIES IN EACH GENRE? 
@@ -245,7 +258,7 @@ ORDER BY avg_duration DESC;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans8.png?raw=true)
+![ans8](https://user-images.githubusercontent.com/112953571/206368617-4ac5a982-687c-4b85-a065-527434edaca0.png)
 
 
 
@@ -271,7 +284,8 @@ WHERE  genre = "THRILLER" ;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans9.png?raw=true)
+![ans9](https://user-images.githubusercontent.com/112953571/206368660-46b80fff-cd45-46ba-8f61-83745d3c54bb.png)
+
 
 
 
@@ -292,7 +306,7 @@ FROM   ratings;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans10.png?raw=true)
+![ans10](https://user-images.githubusercontent.com/112953571/206368708-336ccd86-de9a-4269-869d-27934b10df56.png)
 
 
 Q11. WHICH ARE THE TOP 10 MOVIES BASED ON AVERAGE RATING?
@@ -312,7 +326,8 @@ ON mov.id = rat.movie_id limit 10;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans11.png?raw=true)
+
+![ans11](https://user-images.githubusercontent.com/112953571/206368755-81d6b32e-95f1-4561-8984-ed3603242e89.png)
 
 
 Q12. SUMMARISE THE RATINGS TABLE BASED ON THE MOVIE COUNTS BY MEDIAN RATINGS.
@@ -330,7 +345,8 @@ ORDER BY movie_count DESC;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans12.png?raw=true)
+![ans12](https://user-images.githubusercontent.com/112953571/206368806-18cac043-9131-4561-9c3c-8090214c06f4.png)
+
 
 
 Q13. WHICH PRODUCTION HOUSE HAS PRODUCED THE MOST NUMBER OF HIT MOVIES (AVERAGE RATING > 8)?
@@ -351,7 +367,8 @@ GROUP BY production_company;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans13.png?raw=true)
+![ans13](https://user-images.githubusercontent.com/112953571/206368866-620195a0-95e4-4c17-a2f1-aa85ef149543.png)
+
 
 
 Q14. HOW MANY MOVIES RELEASED IN EACH GENRE DURING MARCH 2017 IN THE USA HAD MORE THAN 1,000 VOTES?
@@ -376,7 +393,8 @@ ORDER BY movie_count DESC;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans14.png?raw=true)
+![ans14](https://user-images.githubusercontent.com/112953571/206368918-a0c962e1-4e26-4d21-af42-888fc50901ab.png)
+
 
 Q15. FIND MOVIES OF EACH GENRE THAT START WITH THE WORD ‘THE’ AND WHICH HAVE AN AVERAGE RATING > 8?
 
@@ -396,7 +414,7 @@ ORDER BY avg_rating DESC;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans15.png?raw=true)
+![ans15](https://user-images.githubusercontent.com/112953571/206368979-bc0664f6-340e-4d29-a67f-8dd6a2c92753.png)
 
 
 Q16. OF THE MOVIES RELEASED BETWEEN 1 APRIL 2018 AND 1 APRIL 2019, HOW MANY WERE GIVEN A MEDIAN RATING OF 8?
@@ -418,7 +436,8 @@ GROUP BY median_rating;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans16.png?raw=true)
+
+![ans16](https://user-images.githubusercontent.com/112953571/206369016-81653524-852e-4fa4-a12c-40f2c1b13d21.png)
 
 
 Q17. DO GERMAN MOVIES GET MORE VOTES THAN ITALIAN MOVIES?
@@ -438,7 +457,9 @@ GROUP BY country;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans17.png?raw=true)
+
+![ans17](https://user-images.githubusercontent.com/112953571/206369105-beb5bd94-1898-416c-a60f-9af9dd2652eb.png)
+
 
 Q18. WHICH COLUMNS IN THE NAMES TABLE HAVE NULL VALUES?
 
@@ -467,8 +488,7 @@ FROM names;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans18.png?raw=true)
-
+![ans18](https://user-images.githubusercontent.com/112953571/206369145-4fe40858-379d-4247-8cf0-37d6387d126d.png)
 
 
 Q19. WHO ARE THE TOP THREE DIRECTORS IN THE TOP THREE GENRES WHOSE MOVIES HAVE AN AVERAGE RATING > 8?
@@ -505,7 +525,8 @@ ORDER BY movie_count DESC limit 3 ;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans19.png?raw=true)
+![ans19](https://user-images.githubusercontent.com/112953571/206369208-bda9ede8-3fbe-4418-b89b-a7238e2ee857.png)
+
 
 
 Q20. WHO ARE THE TOP TWO ACTORS WHOSE MOVIES HAVE A MEDIAN RATING >= 8?
@@ -530,7 +551,9 @@ ORDER BY movie_count DESC LIMIT 2;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans20.png?raw=true)
+
+![ans20](https://user-images.githubusercontent.com/112953571/206369258-1b37ed0a-9e18-4732-82ab-5ae3fd8147a2.png)
+
 
 
 
@@ -552,8 +575,8 @@ GROUP BY production_company LIMIT 3;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans21.png?raw=true)
 
+![ans21](https://user-images.githubusercontent.com/112953571/206369299-51e08111-e128-4143-827c-15912a4cb0ae.png)
 
 Q22. RANK ACTORS WITH MOVIES RELEASED IN INDIA BASED ON THEIR AVERAGE RATINGS. WHICH ACTOR IS AT THE TOP OF THE LIST?
 
@@ -583,7 +606,8 @@ FROM actor_summary;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans22.png?raw=true)
+
+![ans22](https://user-images.githubusercontent.com/112953571/206369335-62655c80-729d-4e49-984d-89fb5883b1be.png)
 
 
 
@@ -618,7 +642,9 @@ FROM actress_detail LIMIT 5;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans23.png?raw=true)
+![ans23](https://user-images.githubusercontent.com/112953571/206369372-99fbf938-834f-4083-81d5-6f93b50912ca.png)
+
+
 
 
 Q24. Select thriller movies as per avg rating and classify them in the following category: 
@@ -655,7 +681,8 @@ from thriller_movies ;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans24.png?raw=true)
+
+![ans24](https://user-images.githubusercontent.com/112953571/206369418-8918b5ab-9714-47ac-8696-4b08d00b2ce6.png)
 
 
 Q25. What is the genre-wise running total and moving average of the average movie duration? 
@@ -676,7 +703,8 @@ ORDER BY genre;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans25.png?raw=true)
+![ans25](https://user-images.githubusercontent.com/112953571/206369463-a880dd4b-b793-46f8-b7a0-807fe7c619e0.png)
+
 
 
 Q26. WHICH ARE THE FIVE HIGHEST-GROSSING MOVIES OF EACH YEAR THAT BELONG TO THE TOP THREE GENRES?
@@ -712,7 +740,9 @@ ORDER BY YEAR;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans26.png?raw=true)
+
+![ans26](https://user-images.githubusercontent.com/112953571/206369504-8b8a2433-c024-4fa5-8943-c5f2b1e9b6ee.png)
+
 
  Q27.  WHICH ARE THE TOP TWO PRODUCTION HOUSES THAT HAVE PRODUCED THE HIGHEST NUMBER OF HITS (MEDIAN RATING >= 8) AMONG MULTILINGUAL MOVIES?
 
@@ -737,7 +767,9 @@ FROM production_company_detail LIMIT 2;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans27.png?raw=true)
+
+![ans27](https://user-images.githubusercontent.com/112953571/206369549-82462093-b091-4807-a62c-d45f42036b85.png)
+
 
 
 Q28. WHO ARE THE TOP 3 ACTRESSES BASED ON NUMBER OF SUPER HIT MOVIES (AVERAGE RATING >8) IN DRAMA GENRE?
@@ -771,7 +803,8 @@ FROM actress_summary LIMIT 3;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans28.png?raw=true)
+
+![ans28](https://user-images.githubusercontent.com/112953571/206369600-650a5484-bb37-4854-b27c-50ad10467f07.png)
 
 
 Q29. GET THE FOLLOWING DETAILS FOR TOP 9 DIRECTORS (BASED ON NUMBER OF MOVIES)
@@ -827,9 +860,7 @@ ORDER BY Count(movie_id) DESC limit 9;
 ```
 **OUTPUT**
 
-![App Screenshot](https://github.com/Rohan9971/SQL_IMDB_Movies_Dataset_Analysis/blob/main/Screenshots/ans29.png?raw=true)
-
-
+![ans29](https://user-images.githubusercontent.com/112953571/206369635-adfe8807-3b2c-452d-a43b-282c3579fe10.png)
 
 
 
